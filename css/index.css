@@ -1,22 +1,102 @@
 body {
     background-image: url("../images/background2.jpg");
     background-size: cover;
-}
-
-.header ul {
-    list-style-type: none;
-    overflow: hidden;
-    background-color: rgb(114, 114, 255);
+    color: white;
     margin: 0px;
     padding: 0px;
-
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.header li {
-    float: left;
-    padding: 14px 16px;
+header {
+    background-color: black;
+    color: white;
+    position: sticky;
 }
 
-.header .links {
-    float: right;
+header h1 {
+    padding: 0px 15px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-content a {
+    padding: 10px 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.header-content a:hover {
+    background-color: white;
+    color: black;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar-left {
+    background-color: white;
+    position: fixed;
+    margin-top: 20px;
+    margin-left: 15px;
+    width: 200px;
+}
+
+.sidebar-left ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+.sidebar-left li a {
+    display: block;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.sidebar-left li a:hover {
+    background-color: #555555;
+    color: white;
+}
+
+.main-content {
+    color: black;
+    margin-left: 230px;
+    background-color: white;
+    flex: 1;
+    padding: 20px;
+}
+.webpro-links{
+    text-align: center;
+}
+.assignment-table {
+    border-collapse: collapse;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.assignment-table td {
+    padding: 10px;
+    text-align: left;
+}
+
+.assignment-table tr:nth-child(odd) {
+    background-color: lightgray;
+}
+
+.assignment-table tr:nth-child(even) {
+    background-color: white;
+}
+
+.assignment-table a {
+    text-decoration: none;
+}
+.assignment-table a:hover{
+    text-decoration: underline;
 }
