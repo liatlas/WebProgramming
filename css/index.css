@@ -1,4 +1,22 @@
 body {
-    background-image: url("images/background1.jpg");
+    background-image: url("../images/background2.jpg");
+    background-size: cover;
+}
 
+.header ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: rgb(114, 114, 255);
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.header li {
+    float: left;
+    padding: 14px 16px;
+}
+
+.header .links {
+    float: right;
 }
