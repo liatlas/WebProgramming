@@ -1,5 +1,5 @@
 body {
-    background-image: url("images\background2.jpg");
+    background-image: url("..\\images\\background2.jpg");
     background-size: cover;
     color: white;
     margin: 0px;
@@ -54,15 +54,18 @@ header h1 {
 }
 
 .headshot-text {
-    width: 85%;}
+    width: 60%;
+}
+.headshot-text li{
+    padding: 8px;
+}
 
 .headshot-image {
-    width:15%;
     padding: 10px;
 
 }
 .headshot-image img {
-    width: 150px;
+    width: 300px;
     border-radius: 50%;
 }
 
